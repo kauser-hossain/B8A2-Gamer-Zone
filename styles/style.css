@@ -5,17 +5,82 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+.primary-color {
+  color: #ff42a5;
+}
 /* navbar design started */
-.navbar-container{
-    display: flex;
-    justify-content: space-around;
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 38px 0;
 }
-.brand-part{
-    display: flex;
+.brand-part {
+  display: flex;
+  gap: 1.9rem;
+  margin-left: 150px;
 }
-.navbar-content{
-    display: flex;
+.logo {
+  width: 100%;
 }
-.content-1{
-    display: flex;
+.brand-name {
+  font-size: 2.8rem;
+  font-weight: 700;
 }
+.navbar-content-container {
+  display: flex;
+  margin-right: 150px;
+  text-align: center;
+  gap: 2rem;
+}
+.navbar-content ul {
+  display: flex;
+  align-items: center;
+}
+.navbar-content li {
+  list-style: none;
+}
+.navbar-content a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #3c354f;
+  font-weight: 500;
+}
+.content-part-one {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.content-part-one a {
+  margin-right: 2rem;
+}
+.content-part-two {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.content-part-two a {
+  margin-right: 1.5rem;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    font-size: 34px;
+}
+.nav-icon  .bxl-youtube{
+color: red;
+}
+/* nav-bar styles end */
+
+
+
