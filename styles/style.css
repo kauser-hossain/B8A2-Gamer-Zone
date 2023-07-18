@@ -8,6 +8,18 @@
 .primary-color {
   color: #ff42a5;
 }
+.primary-btn {
+  border-radius: 2.5rem;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
 /* navbar design started */
 .navbar-container {
   display: flex;
@@ -70,17 +82,100 @@
 .content-part-two a {
   margin-right: 1.5rem;
 }
-.nav-icon{
-    display: flex;
-    align-items: center;
+.nav-icon {
+  display: flex;
+  align-items: center;
 }
-.nav-icon i{
-    font-size: 34px;
+.nav-icon i {
+  font-size: 34px;
 }
-.nav-icon  .bxl-youtube{
-color: red;
+.nav-icon .bxl-youtube {
+  color: red;
 }
 /* nav-bar styles end */
-
-
-
+/* header-banner style start */
+.header-banner {
+  background: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 0 150px;
+}
+.header-banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.header-banner-logo {
+  font-size: 5.93rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.header-banner-content {
+  display: flex;
+  align-items: center;
+  gap: 08px;
+}
+.btn-group {
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+}
+.header-banner-img img {
+  width: 100%;
+  height: auto;
+}
+/* header-banner-end */
+/* we-are-gammer-section-styles-start */
+.gaming-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: nowrap;
+}
+.gaming-container .gaming-content {
+  width: 50%;
+  text-align: end;
+  margin-right: 150px;
+}
+.gaming-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -60px;
+}
+.gaming-description {
+  color: #534c64;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.purpose {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+.messaze{
+color: #534C64;
+font-size: 1.5rem;
+font-weight: 700;
+margin-top: 1rem;
+}
+.gaming-container img {
+  width: 600px;
+  height: 400px;
+  margin-left: 60px;
+}
