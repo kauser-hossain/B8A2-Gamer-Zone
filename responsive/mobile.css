@@ -1,0 +1,125 @@
+@media screen and (max-width:425px) {
+    .navbar-container{
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0;
+        justify-content: center;
+    }
+    .brand-part{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .navbar-content-container{
+        flex-direction: column;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    .content-part-one ul{
+        flex-direction: column;
+    }
+    .content-part-one li{
+        margin-bottom: 30px;
+    }
+    .header-banner{
+        grid-template-columns: 1fr;
+        margin: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .btn-group{
+        display: flex;
+        padding: 0;
+        text-align: center;
+        font-size: 0.5rem;
+        margin: 0 auto;
+    }
+    .primary-btn{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
+    .gaming-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .gaming-container .gaming-content{
+        margin-top: 30px;
+        text-align: center;
+        width: 50%;
+        margin-right: 0px;
+    }
+    .gaming-content .gaming-title{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .gaming-container img{
+        width: 80%;
+        height: auto;
+    }
+    .game-type-img-container{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .online-games-title, 
+    .online-games-title>span{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .game-type-img-container img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .game-play-container{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .game-play-content{
+        margin-top: 150px;
+        text-align: center;
+        margin-right: 0px;
+        width: 100%;
+        text-align: justify;
+    }
+    .game-play-title,
+    .game-play-title span{
+        text-align: center;
+        font-size: 1.5rem;
+        display: inline block;
+    }
+    .game-play-content p{
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .games-all-name{
+        grid-template-columns: repeat(3 ,1fr);
+        margin: 0 0;
+        width: 80%;
+        align-self: center;
+        gap: 0;
+        padding: 3px;
+        margin: 0 auto;
+    }
+    .game-name-container .games-log{
+        width: 20px;
+        height: 20px;
+      }
+      .game-name-container:hover{
+        color: #f948b2;
+        border: 1px solid #ff42a5;
+        border-radius: 10px;
+      }
+}
