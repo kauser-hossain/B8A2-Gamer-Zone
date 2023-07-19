@@ -122,4 +122,35 @@
         border: 1px solid #ff42a5;
         border-radius: 10px;
       }
+      .footer{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .footer-head{
+         flex-direction: column;
+      }
+      .my-game-work{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0 auto;
+        margin-right: 0;
+        gap: 10px;
+      }
+      .my-social-links{
+        display: grid;
+        font-size: 25px;
+        grid-template-columns: repeat(3 ,1fr);
+      }
+      .my-social-links .bxl-facebook{
+        background: none;
+      }
+      .my-social-links .bxl-youtube{
+        background: none;
+      }
+      .info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+      }
 }
