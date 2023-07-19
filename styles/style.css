@@ -200,17 +200,24 @@
   font-size: 1rem;
   font-weight: 400;
 }
-.game-type-img-container {
+.game-type-img-container{
   display: flex;
-  margin-right: 150px;
-  margin-left: 150px;
-  justify-content: space-between;
-  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
 }
-.game-type-img-container img {
-  width: 24%;
-  height: auto;
+.image-container img {
+  padding: 50px 50px;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
+.image-container p{
+  width: 80%;
+  padding-left: 50px;
+  padding-top: -50px;
+}
+
 /* game-play-section-style */
 .game-play-container {
   display: flex;

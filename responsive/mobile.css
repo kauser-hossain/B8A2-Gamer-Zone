@@ -61,11 +61,15 @@
     .gaming-container img{
         width: 80%;
         height: auto;
+        
     }
     .game-type-img-container{
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
+    }
+    .image-container img{
+        padding: 5px;
     }
     .online-games-title, 
     .online-games-title>span{
